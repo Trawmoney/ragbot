@@ -1,3 +1,6 @@
+import os
+import litellm  
+import completion from 'litellm'
 import OpenAI from 'openai';
 import {OpenAIStream, StreamingTextResponse} from 'ai';
 import {AstraDB} from "@datastax/astra-db-ts";
